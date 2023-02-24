@@ -1,0 +1,5 @@
+# reporduce the bug
+from random import randint
+dice_imgs = ["1️⃣ ","2️⃣ ","3️⃣ "," 4️⃣"," 5️⃣"," 6️⃣"]
+dice_num = randint(0,5)  # dont randint(1,6)
+print(dice_imgs[dice_num])
